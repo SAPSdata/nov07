@@ -7,7 +7,7 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'nov07'
+BOT_NAME = 'zoopla'
 
 SPIDER_MODULES = ['zoopla.spiders']
 NEWSPIDER_MODULE = 'zoopla.spiders'
