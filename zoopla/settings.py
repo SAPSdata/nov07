@@ -7,7 +7,7 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'zoopla'
+BOT_NAME = 'nov07'
 
 SPIDER_MODULES = ['zoopla.spiders']
 NEWSPIDER_MODULE = 'zoopla.spiders'
@@ -17,7 +17,7 @@ NEWSPIDER_MODULE = 'zoopla.spiders'
 #USER_AGENT = 'zoopla (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
-ROBOTSTXT_OBEY = True
+ROBOTSTXT_OBEY = FALSE
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 CONCURRENT_REQUESTS = 1
